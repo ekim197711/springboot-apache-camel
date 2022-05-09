@@ -21,8 +21,6 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.apache.camel.springboot:camel-spring-boot-starter:3.16.0'
-//    implementation 'org.apache.camel.springboot:camel-spring-boot-xml-starter:3.16.0'
-//	implementation 'org.apache.camel:camel-jaxb-starter:2.25.4'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
