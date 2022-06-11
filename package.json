@@ -1,0 +1,27 @@
+{
+  "name": "springboot-apache-camel",
+  "version": "1.0.0",
+  "description": "Execute tedious tasks",
+  "main": "index.js",
+  "scripts": {
+    "enabler_sadsddsads":  "echo \"something\" ",
+    "enabler_set_npm_terminal_to_git_bash": "npm config set script-shell \"C:\\Program Files\\git\\bin\\bash.exe\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker_remove_all_images": "docker rmi -f $(docker images -q)",
+    "docker_remove_all_containers": "docker rm -f $(docker ps -aq)",
+    "docker_list_containers": "docker ps -a",
+    "docker_list_images": "docker images",
+    "docker_run_postgres": "docker run --rm -it -e POSTGRES_PASSWORD=password --name mydb postgres ",
+    "http_to_server": "curl -d data.json http://localhost:8085/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekim197711/springboot-apache-camel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekim197711/springboot-apache-camel/issues"
+  },
+  "homepage": "https://github.com/ekim197711/springboot-apache-camel#readme"
+}
