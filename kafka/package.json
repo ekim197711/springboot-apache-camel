@@ -1,0 +1,14 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker-compose build",
+    "build-and-up": "docker-compose build && npm run up",
+    "up": "npm run down && docker-compose up",
+    "down": "docker-compose down"
+  },
+  "author": "",
+  "license": "ISC"
+}

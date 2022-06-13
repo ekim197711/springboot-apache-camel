@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  mykafka:
+    build: .
+    ports:
+      - "2181:2181"
+      - "9092:9092"
